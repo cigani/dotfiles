@@ -16,6 +16,7 @@ call plug#begin()
 Plug 'ciaranm/securemodelines'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'justinmk/vim-sneak'
+Plug 'chriskempson/base16-vim'
 
 " GUI enhancements
 Plug 'itchyny/lightline.vim'
@@ -68,6 +69,7 @@ if (match($TERM, "-256color") != -1) && (match($TERM, "screen-256color") == -1)
 endif
 set background=dark
 let base16colorspace=256
+colorscheme base16-gruvbox-dark-hard
 syntax on
 hi Normal ctermbg=NONE
 

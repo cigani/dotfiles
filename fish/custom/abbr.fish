@@ -5,6 +5,7 @@ abbr -a gp 'git push'
 abbr -a gp 'git pull' 
 abbr -a ga 'git add'
 abbr -a gaa 'git add --all'
+abbr -a c cargo
 
 if command -v exa > /dev/null
 	abbr -a l 'exa'
